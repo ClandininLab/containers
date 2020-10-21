@@ -8,3 +8,4 @@ RUN apt-get -y update && apt-get -y install cmtk && \
     rm -rf /var/lib/apt/lists/*
 
 ENV PATH $PATH:/usr/lib/cmtk/bin/
+ENV LC_ALL C
